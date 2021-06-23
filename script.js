@@ -6,7 +6,7 @@ function compute()
     var years = document.getElementById("years").value;
     var interest = (principal.value * years * rate) /100
     var year = new Date().getFullYear()+parseInt(years);
-    validateAmount(principal, rate, interest, year-1);
+    validateAmount(principal, rate, interest, year);
 }
 
 //update the rate text with the button sliding
